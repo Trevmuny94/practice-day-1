@@ -1,0 +1,53 @@
+header{
+  background-color: #000;
+  height: 250px;
+  text-align: center;
+  color: #fff;
+}
+
+#roygbiv{
+  background-color: #292e37;
+  height: 250px;
+  text-align: center;
+  color: #000;
+}
+
+#red{
+  background-color: #cb0000;
+  height: 250px;
+}
+
+#orange{
+  background-color: #fea300;
+  height: 250px;
+}
+
+#yellow{
+  background-color: #f9f601;
+  height: 250px;
+}
+
+#green{
+  background-color: #077101;
+  height: 250px;
+}
+
+#blue{
+  background-color: #075fe6;
+  height: 250px;
+}
+
+#indigo{
+  background-color: #4b0082;
+  height: 250px;
+}
+
+#violet{
+  background-color: #9400d3;
+  height: 250px;
+}
+
+footer{
+  background-color: #000;
+  height: 150px;
+}
