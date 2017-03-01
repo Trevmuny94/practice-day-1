@@ -1,53 +1,134 @@
-header{
-  background-color: #000;
-  height: 250px;
-  text-align: center;
-  color: #fff;
+/*=================HEADER=============*/
+
+header {
+    background-color: #000;
+    height: 250px;
+    text-align: center;
+    color: #fff;
 }
 
-#roygbiv{
-  background-color: #292e37;
-  height: 250px;
-  text-align: center;
-  color: #000;
+/*=================MAIN=============*/
+
+.happy-bunnies{
+  height: 300px;
+  background-color: #d3ee07;
+  width: 40%;
 }
 
-#red{
-  background-color: #cb0000;
-  height: 250px;
+.sad-hippo{
+  height: 300px;
+  background-color: #0000ff;
+  width: 100%
 }
 
-#orange{
-  background-color: #fea300;
-  height: 250px;
+.floppy-moose{
+  height: 300px;
+  background-color: #6a3f0d;
+  width:50%;
 }
 
-#yellow{
-  background-color: #f9f601;
-  height: 250px;
+#roygbiv {
+    background-color: #292e37;
+    height: 250px;
+    text-align: center;
+    color: #000;
 }
 
-#green{
-  background-color: #077101;
-  height: 250px;
+#red {
+    background-color: #cb0000;
+    height: 250px;
 }
 
-#blue{
-  background-color: #075fe6;
-  height: 250px;
+#orange {
+    background-color: #fea300;
+    height: 250px;
 }
 
-#indigo{
-  background-color: #4b0082;
-  height: 250px;
+#yellow {
+    background-color: #f9f601;
+    height: 250px;
 }
 
-#violet{
-  background-color: #9400d3;
-  height: 250px;
+#green {
+    background-color: #077101;
+    height: 250px;
 }
 
-footer{
-  background-color: #000;
-  height: 150px;
+#blue {
+    background-color: #075fe6;
+    height: 250px;
 }
+
+#indigo {
+    background-color: #4b0082;
+    height: 250px;
+}
+
+#violet {
+    background-color: #9400d3;
+    height: 250px;
+}
+
+/*=================FOOTER=============*/
+
+footer {
+    background-color: #000;
+    height: 150px;
+}
+
+/*============MEDIA QUERIES=============*/
+
+@media screen and (min-width: 550px){
+  .happy-bunnies{
+    background-color: #6f51c4;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 450px){
+  .sad-hippo{
+    background-color: #36be14;
+    width: 5%;
+  }
+}
+
+@media screen and (min-width: 600px){
+  .floppy-moose{
+    background-color: #fc8c17;
+    width: 100%;
+  }
+}
+
+ @media screen and (max-width: 450px){
+   .floppy-moose{
+     background-color: #6b6dff;
+     width: 100%;
+   }
+ }
+
+ @media screen and (min-width: 768px){
+   #blue{
+     background-color: #559933;
+   }
+   #indigo{
+     background-color: #007733;
+   }
+   #violet{
+     background-color: #77ff00;
+   }
+ }
+
+ @media screen and (min-width: 375px){
+   #red{
+     background-color: #3300ff;
+   }
+   #orange{
+     background-color: #004478;
+   }
+   #yellow{
+     background-color: #69ffff;
+   }
+   #green{
+     background-color: #000066;
+   }
+ }
